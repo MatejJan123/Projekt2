@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url('obrazky/pozadi.png');
+    background-size: cover;
+    background-position: top center;
+}
+
+.struktura{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0,0,0,0.6));
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 15px 15px;
+}
+
+header input{
+    width: 100%;
+    max-width: 280px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 16px;
+    border-bottom: 3px solid blue;
+    font-size: 20px;
+    font-weight: 300;
+    transition: 0.2s ease-out;
+}
+
+header input::placeholder{
+    color: black;
+}
+
+header input:focus{
+    background-color: rgba(255,255,255,0.8); ;
+}
+
+main{
+    flex: 1 1 100%;
+    padding: 25px 25px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(248, 246, 246, 0.1);
+    height: 70px;
+    width: 300px;
+    align-self: center;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.lokace .mesto{
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.lokace .datum{
+    color: white;
+    font-size: 16px;
+}
+
+.aktualni .teplota{
+    color: white;
+    font-size: 102px;
+    margin: 20px 0px;
+    text-shadow: 2px 8px rgba(0, 0, 0, 0.75);
+}
+
+.aktualni .teplota span{
+    font-weight: 500;
+}
+
+.aktualni .pocasi{
+    width: 80px;
+    height: 80px;
+    margin-left: 61px;
+    margin-bottom: 40px;
+}
+
+.aktualni .extremy{
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    text-shadow: 0px 4px rgba(0, 0, 0, 0.4);
+}
+
+.dlouhodoba{
+    display: flex;
+    padding: 20px;
+    align-self: center;
+    text-align: center;
+    color: white;
+}
+
+.blok{
+    background-color: rgba(248, 246, 246, 0.1);
+    height: 200px;
+    min-width: 100px;
+    margin-bottom: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.datum1{
+    font-size: 20px;
+    margin: 5px;
+}
+
+.cas1{
+    font-size: 15px;
+    margin: 5px;
+}
+
+.teplota1{
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.datum2{
+    font-size: 20px;
+    margin: 5px;
+}
+
+.cas2{
+    font-size: 15px;
+    margin: 5px;
+}
+
+.teplota2{
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.datum3{
+    font-size: 20px;
+    margin: 5px;
+}
+
+.cas3{
+    font-size: 15px;
+    margin: 5px;
+}
+
+.teplota3{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.datum4{
+    font-size: 20px;
+    margin: 5px;
+}
+
+.cas4{
+    font-size: 15px;
+    margin: 5px;
+}
+
+.teplota4{
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.datum5{
+    font-size: 20px;
+    margin: 5px;
+}
+
+.cas5{
+    font-size: 15px;
+    margin: 5px;
+}
+
+.teplota5{
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.datum6{
+    font-size: 20px;
+    margin: 5px;
+}
+
+.cas6{
+    font-size: 15px;
+    margin: 5px;
+}
+
+.teplota6{
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.datum7{
+    font-size: 20px;
+    margin: 5px;
+}
+
+.cas7{
+    font-size: 15px;
+    margin: 5px;
+}
+
+.teplota7{
+    font-size: 30px;
+    margin-top: 20px;
+}
