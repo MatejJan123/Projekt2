@@ -1,27 +1,28 @@
+/*Stylování všech elementů.*/
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
-
+/*Sytlování těla stránky*/
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-image: url('obrazky/pozadi.png');
-    background-size: cover;
+    background-size: cover; /*Změní obrázek na pozadí, aby pokryl celou plochu*/
     background-position: top center;
 }
-
+/*Stylování celé předpovědi*/
 .struktura{
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /*Řzení elementů do sloupců*/
     min-height: 100vh;
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0,0,0,0.6));
     background-color: rgba(0, 0, 0, 0.3);
 }
-
+/*Stylování vyhledávače*/
 header{
     display: flex;
-    justify-content: center;
+    justify-content: center; /*Centrování elementů*/
     align-items: center;
     padding: 50px 15px 15px;
 }
@@ -47,7 +48,7 @@ header input::placeholder{
 header input:focus{
     background-color: rgba(255,255,255,0.8); ;
 }
-
+/*Stylování bloku pro aktuální předpověď*/
 main{
     flex: 1 1 100%;
     padding: 25px 25px 50px;
@@ -100,12 +101,34 @@ main{
     text-shadow: 0px 4px rgba(0, 0, 0, 0.4);
 }
 
+.historie{
+    background-color: rgba(248, 246, 246, 0.1);
+    min-height: 150px;
+    width: 300px;
+    align-self: center;
+    margin: 20px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    flex-direction: column;
+
+}
+
+.nadpis{
+    margin: 5px;
+    font-size: 30px;
+}
+
+/*Stylování dlouhodobé předpovědi*/
 .dlouhodoba{
     display: flex;
     padding: 20px;
     align-self: center;
     text-align: center;
     color: white;
+    
 }
 
 .blok{
